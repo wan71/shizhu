@@ -1,0 +1,14 @@
+.\objects\led.o: ..\code\led.c
+.\objects\led.o: ..\code\led.h
+.\objects\led.o: ..\code\user_task.h
+.\objects\led.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: ..\..\..\..\components\driver\include\driver_gpio.h
+.\objects\led.o: ..\..\..\..\components\driver\include\driver_plf.h
+.\objects\led.o: ..\..\..\..\components\modules\platform\include\compiler.h
+.\objects\led.o: ..\..\..\..\components\modules\platform\include\core_cm3.h
+.\objects\led.o: ..\..\..\..\components\modules\platform\include\cmsis_compiler.h
+.\objects\led.o: ..\..\..\..\components\modules\platform\include\cmsis_armcc.h
+.\objects\led.o: ..\..\..\..\components\modules\platform\include\ll.h
+.\objects\led.o: ..\..\..\..\components\driver\include\driver_system.h
+.\objects\led.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\led.o: ..\..\..\..\components\driver\include\driver_iomux.h

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 71 71, 71, LIC=GMZI6-DU2A7-VEMHA-1AJM6-W5ZIG-8RT7T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\wl123\Desktop\跳绳资料\跳绳资料\mcu_demo\examples\dev1.0\ble_multi_role\keil\ble_multi_role.uvproj
+Project File Date:  12/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Rebuild target 'ble_multi_role'
+compiling driver_uart.c...
+..\..\..\..\components\driver\driver_uart.c(45): error:  #20: identifier "AT_UART" is undefined
+      at_event.event_id = AT_UART;
+..\..\..\..\components\driver\driver_uart.c: 0 warnings, 1 error
+compiling driver_rtc.c...
+compiling proj_main.c...
+compiling user_task.c...
+compiling simple_gatt_service.c...
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(41): error:  #20: identifier "JumpData" is undefined
+  extern JumpData jump;
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(387): warning:  #111-D: statement is unreachable
+  							break;
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(395): warning:  #111-D: statement is unreachable
+  							break;
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(402): warning:  #111-D: statement is unreachable
+  							break;						
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(409): warning:  #111-D: statement is unreachable
+  							break;		
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(416): warning:  #111-D: statement is unreachable
+  							break;	
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(423): warning:  #111-D: statement is unreachable
+  							break;				
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(430): warning:  #111-D: statement is unreachable
+  							break;		
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(449): warning:  #111-D: statement is unreachable
+  							break;
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(524): warning:  #223-D: function "uart_at" declared implicitly
+  									uart_at(NULL);
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(546): warning:  #223-D: function "uart_at" declared implicitly
+  									uart_at(NULL);
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(556): warning:  #223-D: function "uart_at" declared implicitly
+  									uart_at(NULL);
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(572): warning:  #223-D: function "uart_at" declared implicitly
+  			            uart_at(NULL);
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c(588): warning:  #223-D: function "uart_at" declared implicitly
+  									uart_at(NULL);
+..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c: 13 warnings, 1 error
+compiling driver_pmu_qdec.c...
+compiling button.c...
+compiling driver_keyscan.c...
+compiling driver_wdt.c...
+compiling driver_iic.c...
+compiling ble_multi_role.c...
+compiling driver_exti.c...
+compiling driver_pmu.c...
+assembling app_boot_vectors.s...
+compiling driver_timer.c...
+compiling driver_i2s.c...
+compiling core_cm3_isr.c...
+compiling driver_efuse.c...
+compiling patch.c...
+".\Objects\ble_multi_role.axf" - 2 Error(s), 13 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

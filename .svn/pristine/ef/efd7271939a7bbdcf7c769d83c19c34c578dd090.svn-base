@@ -1,0 +1,479 @@
+Dependencies for Project 'ble_simple_peripheral', Target 'ble_simple_peripheral': (DO NOT MODIFY !)
+F (..\code\proj_main.c)(0x65E92C2D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\proj_main.o --omf_browse .\objects\proj_main.crf --depend .\objects\proj_main.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\button\button.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_i2s.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_rtc.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65A10DDE)
+I (..\code\ble_simple_peripheral.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\code\lcd_init.h)(0x654D9E3A)
+I (..\code\lcd.h)(0x654DA158)
+I (..\code\led.h)(0x654C92B0)
+F (..\code\ble_simple_peripheral.c)(0x65E93EB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\ble_simple_peripheral.o --omf_browse .\objects\ble_simple_peripheral.crf --depend .\objects\ble_simple_peripheral.d)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\code\ble_simple_peripheral.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65A10DDE)
+I (..\code\ota.h)(0x65026E56)
+I (..\code\ota_service.h)(0x65026E56)
+F (..\code\ble_simple_peripheral.h)(0x65026E56)()
+F (..\code\user_task.c)(0x65EAE65C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\user_task.o --omf_browse .\objects\user_task.crf --depend .\objects\user_task.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\os\include\os_task.h)(0x658FD946)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\code\my_user.h)(0x65EAE4EC)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\button\button.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_timer.h)(0x65026E56)
+I (..\code\lcd.h)(0x654DA158)
+I (..\code\lcd_init.h)(0x654D9E3A)
+I (..\code\pic.h)(0x5E69B55E)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+F (..\..\..\..\components\modules\button\button.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\button.o --omf_browse .\objects\button.crf --depend .\objects\button.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\os\include\os_task.h)(0x658FD946)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\modules\button\button.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\code\my_user.c)(0x65EAE92B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\my_user.o --omf_browse .\objects\my_user.crf --depend .\objects\my_user.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\code\ble_simple_peripheral.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65A10DDE)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+F (..\code\my_user.h)(0x65EAE4EC)()
+F (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.c)(0x65EADCF3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\simple_gatt_service.o --omf_browse .\objects\simple_gatt_service.crf --depend .\objects\simple_gatt_service.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\code\my_user.h)(0x65EAE4EC)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_simple_profile\simple_gatt_service.h)(0x653A1E98)()
+F (..\code\ota.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\ota.o --omf_browse .\objects\ota.crf --depend .\objects\ota.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\code\ota.h)(0x65026E56)
+I (..\code\ota_service.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65A10DDE)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+F (..\code\ota_service.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\ota_service.o --omf_browse .\objects\ota_service.crf --depend .\objects\ota_service.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\code\ota.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\code\ota_service.h)(0x65026E56)
+F (..\code\lcd.c)(0x654DA1A0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (..\code\lcd.h)(0x654DA158)
+I (..\code\user_task.h)(0x65EABDCA)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\code\lcd_init.h)(0x654D9E3A)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\code\lcdfont.h)(0x654DD3D4)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\code\lcd_init.c)(0x654D9CF8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\lcd_init.o --omf_browse .\objects\lcd_init.crf --depend .\objects\lcd_init.d)
+I (..\code\lcd_init.h)(0x654D9E3A)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\code\led.c)(0x654C9A6C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\code\led.h)(0x654C92B0)
+I (..\code\user_task.h)(0x65EABDCA)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_iic.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_iic.o --omf_browse .\objects\driver_iic.crf --depend .\objects\driver_iic.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\driver\include\driver_iic.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_pmu.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_pmu.o --omf_browse .\objects\driver_pmu.crf --depend .\objects\driver_pmu.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_adc.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+F (..\..\..\..\components\driver\driver_keyscan.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_keyscan.o --omf_browse .\objects\driver_keyscan.crf --depend .\objects\driver_keyscan.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_keyscan.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_pmu_qdec.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_pmu_qdec.o --omf_browse .\objects\driver_pmu_qdec.crf --depend .\objects\driver_pmu_qdec.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_qdec.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_rtc.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_rtc.o --omf_browse .\objects\driver_rtc.crf --depend .\objects\driver_rtc.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\driver\include\driver_rtc.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_uart.c)(0x65B078B1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_uart.o --omf_browse .\objects\driver_uart.crf --depend .\objects\driver_uart.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\..\..\..\components\modules\os\include\os_task.h)(0x658FD946)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\code\my_user.h)(0x65EAE4EC)
+F (..\..\..\..\components\driver\driver_wdt.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_wdt.o --omf_browse .\objects\driver_wdt.crf --depend .\objects\driver_wdt.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_i2s.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_i2s.o --omf_browse .\objects\driver_i2s.crf --depend .\objects\driver_i2s.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_i2s.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+F (..\..\..\..\components\driver\driver_exti.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_exti.o --omf_browse .\objects\driver_exti.crf --depend .\objects\driver_exti.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_exti.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_timer.c)(0x6598B66A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_timer.o --omf_browse .\objects\driver_timer.crf --depend .\objects\driver_timer.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (..\code\my_user.h)(0x65EAE4EC)
+I (..\code\user_task.h)(0x65EABDCA)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\code\lcd.h)(0x654DA158)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_timer.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_efuse.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\driver_efuse.o --omf_browse .\objects\driver_efuse.crf --depend .\objects\driver_efuse.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+F (..\..\..\..\components\modules\platform\source\core_cm3_isr.c)(0x65026E56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\core_cm3_isr.o --omf_browse .\objects\core_cm3_isr.crf --depend .\objects\core_cm3_isr.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+F (..\..\..\..\components\modules\platform\source\app_boot_vectors.s)(0x65026E56)(--cpu Cortex-M3 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\listings\app_boot_vectors.lst --xref -o .\objects\app_boot_vectors.o --depend .\objects\app_boot_vectors.d)
+F (..\..\..\..\components\modules\patch\patch.c)(0x65B0930B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ..\..\..\..\components\ble\include -I ..\..\..\..\components\driver\include -I ..\..\..\..\components\modules\os\include -I ..\..\..\..\components\modules\sys\include -I ..\..\..\..\components\modules\platform\include -I ..\..\..\..\components\modules\common\include -I ..\..\..\..\components\modules\lowpow\include -I ..\..\..\..\components\modules\button -I ..\..\..\..\components\ble\include\gap -I ..\..\..\..\components\ble\include\gatt -I ..\..\..\..\components\ble\profiles\ble_simple_profile -I ..\code-I.\RTE\_ble_simple_peripheral-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-ID:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="525" -D_RTE_ -DARMCM3-o .\objects\patch.o --omf_browse .\objects\patch.crf --depend .\objects\patch.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\lowpow\include\low_power.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_armcc.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65AA23D9)
+I (..\code\flash_usage_config.h)(0x65A10DDE)
+F (..\..\..\..\components\ble\library\fr8010h_stack.lib)(0x65026E56)()

@@ -1,0 +1,16 @@
+.\objects\lcd_init.o: ..\code\lcd_init.c
+.\objects\lcd_init.o: ..\code\lcd_init.h
+.\objects\lcd_init.o: ..\..\..\..\components\driver\include\driver_gpio.h
+.\objects\lcd_init.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd_init.o: ..\..\..\..\components\driver\include\driver_plf.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\platform\include\compiler.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\platform\include\core_cm3.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\platform\include\cmsis_compiler.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\platform\include\cmsis_armcc.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\platform\include\ll.h
+.\objects\lcd_init.o: ..\..\..\..\components\driver\include\driver_system.h
+.\objects\lcd_init.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\lcd_init.o: ..\..\..\..\components\driver\include\driver_iomux.h
+.\objects\lcd_init.o: ..\code\user_task.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\sys\include\sys_utils.h
+.\objects\lcd_init.o: ..\..\..\..\components\modules\common\include\co_printf.h

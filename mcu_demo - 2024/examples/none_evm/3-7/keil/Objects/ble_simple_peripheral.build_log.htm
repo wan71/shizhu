@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 71 71, 71, LIC=GMZI6-DU2A7-VEMHA-1AJM6-W5ZIG-8RT7T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\wl123\Desktop\777\mcu_demo - 2024\examples\none_evm\3-7\keil\ble_simple_peripheral.uvprojx
+Project File Date:  01/10/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Rebuild target 'ble_simple_peripheral'
+compiling simple_gatt_service.c...
+compiling button.c...
+compiling led.c...
+compiling ble_simple_peripheral.c...
+compiling lcd_init.c...
+compiling ota_service.c...
+compiling my_user.c...
+..\code\my_user.c(62): warning:  #177-D: variable "packageindex"  was declared but never referenced
+  		int packageindex,package;
+..\code\my_user.c(62): warning:  #177-D: variable "package"  was declared but never referenced
+  		int packageindex,package;
+..\code\my_user.c(434): warning:  #223-D: function "atoi" declared implicitly
+      *year = atoi(token);
+..\code\my_user.c(478): warning:  #223-D: function "strtoul" declared implicitly
+          unsigned int index = strtoul(index_start, NULL, 10);
+..\code\my_user.c: 4 warnings, 0 errors
+compiling driver_keyscan.c...
+compiling proj_main.c...
+..\code\proj_main.c(212): warning:  #188-D: enumerated type mixed with another type
+  	pmu_set_port_mux(GPIO_PORT_C,(1<< GPIO_BIT_6)|(1<< GPIO_BIT_7), PMU_PORT_MUX_GPIO);
+..\code\proj_main.c(228): warning:  #188-D: enumerated type mixed with another type
+  	  pmu_set_port_mux(GPIO_PORT_C,(1<< GPIO_BIT_5), PORTC5_FUNC_C5);
+..\code\proj_main.c(228): warning:  #188-D: enumerated type mixed with another type
+  	  pmu_set_port_mux(GPIO_PORT_C,(1<< GPIO_BIT_5), PORTC5_FUNC_C5);
+..\code\proj_main.c: 3 warnings, 0 errors
+compiling driver_pmu_qdec.c...
+compiling ota.c...
+compiling lcd.c...
+compiling driver_wdt.c...
+compiling driver_pmu.c...
+compiling driver_rtc.c...
+assembling app_boot_vectors.s...
+compiling driver_iic.c...
+compiling driver_i2s.c...
+compiling driver_timer.c...
+compiling core_cm3_isr.c...
+compiling driver_exti.c...
+compiling driver_efuse.c...
+compiling driver_uart.c...
+compiling user_task.c...
+..\code\user_task.c(492): warning:  #177-D: variable "one_pack"  was declared but never referenced
+  							uint16_t one_pack=at_package_num;
+..\code\user_task.c(76): warning:  #177-D: variable "write_success"  was declared but never referenced
+  static uint8_t write_success = 0;
+..\code\user_task.c: 2 warnings, 0 errors
+compiling patch.c...
+linking...
+Program Size: Code=108852 RO-data=23648 RW-data=1140 ZI-data=6620  
+After Build - User command #1: fromelf.exe  --text  -c -o Output/ble_simple_peripheral.txt  Objects/ble_simple_peripheral.axf
+After Build - User command #2: fromelf.exe  --bin -o Output/ble_simple_peripheral.bin  Objects/ble_simple_peripheral.axf
+".\Objects\ble_simple_peripheral.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_ble_simple_peripheral
+  D:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  D:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

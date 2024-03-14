@@ -1,0 +1,2172 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 71 71, 7·, LIC=KRMW3-ADQKH-IIZ5V-PKHPW-IUFX4-4U4SL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\wl123\Desktop\跳绳资料\跳绳资料\mcu_demo\examples\none_evm\ble_AT\proj\ble_5.0_at.uvprojx
+Project File Date:  12/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\keil\ARM\ARMCLANG\Bin'
+Rebuild target 'AT_prj'
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(101): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spsc.c(7): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+2 warnings and 14 errors generated.
+compiling at_profile_spsc.c...
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(101): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(6): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(7): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_profile_spss.c(75): warning: 6 enumeration values not handled in switch: 'GATTC_MSG_ATT_INFO_REQ', 'GATTC_MSG_NTF_REQ', 'GATTC_MSG_IND_REQ'... [-Wswitch]
+    switch(p_msg->msg_evt)
+           ^~~~~~~~~~~~~~
+3 warnings and 14 errors generated.
+compiling at_profile_spss.c...
+../code/at_recv_cmd.c(4): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/at_recv_cmd.c(4): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(4): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(12): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_recv_cmd.c(148): error: call to undeclared function 'os_get_free_heap_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                if( os_get_free_heap_size()>11264 )
+                    ^
+../code/at_recv_cmd.c(580): warning: passing 'char[11]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        gap_set_dev_name("FR8010H_AT",sizeof("FR8010H_AT"));
+                         ^~~~~~~~~~~~
+../../../../components/ble/include/gap\gap_api.h(987): note: passing argument to parameter 'p_name' here
+void gap_set_dev_name(uint8_t *p_name,uint8_t len);
+                               ^
+3 warnings and 15 errors generated.
+compiling at_recv_cmd.c...
+../../../../components/ble/profiles/ble_batt/batt_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/ble/profiles/ble_batt/batt_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_batt/batt_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 2 errors generated.
+compiling batt_service.c...
+../../../../components/ble/profiles/ble_ota/ota_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(53): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct firmware_version
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(58): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct storage_baseaddr
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(61): error: redefinition of 'GCC_PACKED' with a different type: 'struct storage_baseaddr' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(63): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct page_erase_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(66): error: redefinition of 'GCC_PACKED' with a different type: 'struct page_erase_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(68): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_mem_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(72): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_mem_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(74): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_mem_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(78): error: redefinition of 'GCC_PACKED' with a different type: 'struct read_mem_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(80): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_data_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(84): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_data_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(86): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_data_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(90): error: redefinition of 'GCC_PACKED' with a different type: 'struct read_data_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(107): error: expected ';' at end of declaration list
+    }GCC_PACKED rsp;
+               ^
+               ;
+../../../../components/ble/profiles/ble_ota/ota.h(92): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct app_ota_rsp_hdr_t
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(108): error: redefinition of 'GCC_PACKED' with a different type: 'struct app_ota_rsp_hdr_t' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(110): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct page_erase_cmd
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(113): error: redefinition of 'GCC_PACKED' with a different type: 'struct page_erase_cmd' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(115): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_mem_cmd
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(119): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_mem_cmd' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(121): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_mem_cmd
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(125): error: redefinition of 'GCC_PACKED' with a different type: 'struct read_mem_cmd' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(127): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_data_cmd
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(131): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_data_cmd' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(133): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_data_cmd
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(137): error: redefinition of 'GCC_PACKED' with a different type: 'struct read_data_cmd' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(140): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct firmware_check
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota_service.c(18): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(144): error: redefinition of 'GCC_PACKED' with a different type: 'struct firmware_check' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+15 warnings and 20 errors generated.
+compiling ota_service.c...
+../code/at_gap_event.c(12): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/at_gap_event.c(12): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(12): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(16): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_gap_event.c(25): error: static declaration of 'current_con_interval' follows non-static declaration
+static uint16_t current_con_interval = LINK_INTERVAL_MIN;
+                ^
+../code/at_gap_event.h(18): note: previous declaration is here
+extern uint16_t current_con_interval;
+                ^
+../code/at_gap_event.c(298): warning: cast to 'void *' from smaller integer type 'uint8_t' (aka 'unsigned char') [-Wint-to-void-pointer-cast]
+    os_timer_init( &update_param_timer,param_timer_func,(void *)(param->conidx));
+                                                        ^~~~~~~~~~~~~~~~~~~~~~~
+3 warnings and 8 errors generated.
+compiling at_gap_event.c...
+../../../../components/ble/profiles/ble_dev_info/dev_info_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/ble/profiles/ble_dev_info/dev_info_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_dev_info/dev_info_service.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 2 errors generated.
+compiling dev_info_service.c...
+../../../../components/ble/profiles/ble_hid/hid_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/ble/profiles/ble_hid/hid_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_hid/hid_service.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 2 errors generated.
+compiling hid_service.c...
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(101): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(9): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../code/proj_main.c(10): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(10): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(11): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(11): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/proj_main.c(14): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(14): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/proj_main.c(14): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 14 errors generated.
+compiling proj_main.c...
+../../../../components/ble/profiles/ble_ota/ota.c(6): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/ble/profiles/ble_ota/ota.c(6): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(6): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(8): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../../../../components/ble/profiles/ble_ota/ota.c(9): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(9): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(9): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(20): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(20): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(53): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct firmware_version
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(58): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct storage_baseaddr
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(61): error: redefinition of 'GCC_PACKED' with a different type: 'struct storage_baseaddr' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(63): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct page_erase_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(66): error: redefinition of 'GCC_PACKED' with a different type: 'struct page_erase_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(68): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_mem_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(72): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_mem_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(74): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_mem_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(78): error: redefinition of 'GCC_PACKED' with a different type: 'struct read_mem_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(80): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct write_data_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+../../../../components/ble/profiles/ble_ota/ota.c(22): warning: In file included from...
+../../../../components/ble/profiles/ble_ota/ota.h(84): error: redefinition of 'GCC_PACKED' with a different type: 'struct write_data_rsp' vs 'struct firmware_version'
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(56): note: previous definition is here
+}GCC_PACKED;
+ ^
+../../../../components/ble/profiles/ble_ota/ota.h(86): warning: 'packed' attribute ignored [-Wignored-attributes]
+__PACKED struct read_data_rsp
+^
+C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\cmsis_armclang.h(55): note: expanded from macro '__PACKED'
+  #define __PACKED                               __attribute__((packed, aligned(1)))
+                                                                ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+8 warnings and 20 errors generated.
+compiling ota.c...
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(7): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(6): warning: In file included from...
+../code/at_cmd_task.h(9): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(116): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_malloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(133): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_zalloc(uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(155): error: unknown type name '__forceinline'
+__STATIC __INLINE void os_free(void *ptr)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(170): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_calloc(uint32_t num,uint32_t size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(191): error: unknown type name '__forceinline'
+__STATIC __INLINE void *os_realloc(void *ptr,uint32_t new_size)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: unknown type name '__forceinline'
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../code/at_cmd_task.c(11): warning: In file included from...
+../../../../components/modules/os/include\os_mem.h(223): error: expected ';' after top level declarator
+__STATIC __INLINE uint16_t os_get_free_heap_size(void)
+                          ^
+                          ;
+../code/at_cmd_task.c(169): error: call to undeclared function 'os_get_free_heap_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    if( os_get_free_heap_size()>11264 )
+        ^
+../code/at_cmd_task.c(189): error: call to undeclared function 'os_get_free_heap_size'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    if( os_get_free_heap_size()>11264 )
+        ^
+2 warnings and 16 errors generated.
+compiling at_cmd_task.c...
+../../../../components/driver/driver_iic.c(17): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_iic.c(17): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_iic.c(17): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_iic.c(17): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_iic.c(19): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_iic.c(19): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 5 errors generated.
+compiling driver_iic.c...
+../../../../components/driver/driver_pmu.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_pmu.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_pmu.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu.c(18): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 7 errors generated.
+compiling driver_pmu.c...
+../../../../components/driver/driver_pmu_pwm.c(4): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_pmu_pwm.c(4): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(4): warning: In file included from...
+../../../../components/driver/include\driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(41): error: unknown type name '__forceinline'
+__INLINE void gpio_porta_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(55): error: unknown type name '__forceinline'
+__INLINE void gpio_portb_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(69): error: unknown type name '__forceinline'
+__INLINE void gpio_portc_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(83): error: unknown type name '__forceinline'
+__INLINE void gpio_portd_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(97): error: unknown type name '__forceinline'
+__INLINE uint8_t gpio_porta_read(void)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_pwm.c(5): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(97): error: expected ';' after top level declarator
+__INLINE uint8_t gpio_porta_read(void)
+                ^
+                ;
+1 warning and 11 errors generated.
+compiling driver_pmu_pwm.c...
+../../../../components/driver/driver_pmu_qdec.c(16): warning: In file included from...
+../../../../components/driver/include\driver_pmu_qdec.h(7): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_pmu_qdec.c(16): warning: In file included from...
+../../../../components/driver/include\driver_pmu_qdec.h(7): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pmu_qdec.c(16): warning: In file included from...
+../../../../components/driver/include\driver_pmu_qdec.h(7): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(17): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_pmu_qdec.c(16): warning: In file included from...
+../../../../components/driver/include\driver_pmu_qdec.h(7): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+2 warnings and 2 errors generated.
+compiling driver_pmu_qdec.c...
+../../../../components/driver/driver_timer.c(18): warning: In file included from...
+../../../../components/driver/include\driver_timer.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_timer.c(18): warning: In file included from...
+../../../../components/driver/include\driver_timer.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_timer.c(18): warning: In file included from...
+../../../../components/driver/include\driver_timer.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_timer.c(18): warning: In file included from...
+../../../../components/driver/include\driver_timer.h(16): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 3 errors generated.
+compiling driver_timer.c...
+../../../../components/driver/driver_ssp.c(15): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_ssp.c(15): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(15): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(15): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(41): error: unknown type name '__forceinline'
+__INLINE void gpio_porta_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(55): error: unknown type name '__forceinline'
+__INLINE void gpio_portb_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(69): error: unknown type name '__forceinline'
+__INLINE void gpio_portc_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(83): error: unknown type name '__forceinline'
+__INLINE void gpio_portd_write(uint8_t value)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(97): error: unknown type name '__forceinline'
+__INLINE uint8_t gpio_porta_read(void)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_ssp.c(17): warning: In file included from...
+../../../../components/driver/include\driver_gpio.h(97): error: expected ';' after top level declarator
+__INLINE uint8_t gpio_porta_read(void)
+                ^
+                ;
+../../../../components/driver/driver_ssp.c(665): error: call to undeclared function 'gpio_porta_read'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        gpio_porta_write(gpio_porta_read() & 0xDF);
+                         ^
+../../../../components/driver/driver_ssp.c(665): note: did you mean 'gpio_porta_write'?
+../../../../components/driver/include\driver_gpio.h(41): note: 'gpio_porta_write' declared here
+__INLINE void gpio_porta_write(uint8_t value)
+              ^
+../../../../components/driver/driver_ssp.c(669): error: call to undeclared function 'gpio_porta_read'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        gpio_porta_write(gpio_porta_read() | 0x20);
+                         ^
+1 warning and 11 errors generated.
+compiling driver_ssp.c...
+../../../../components/driver/driver_keyscan.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_keyscan.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_keyscan.c(15): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_keyscan.c(17): warning: In file included from...
+../../../../components/driver/include\driver_keyscan.h(29): error: unknown type name 'keyscan_param_t'
+void keyscan_init(keyscan_param_t *param);
+                  ^
+../../../../components/driver/driver_keyscan.c(54): error: unknown type name 'keyscan_param_t'
+void keyscan_init(keyscan_param_t *param)
+                  ^
+../../../../components/driver/driver_keyscan.c(195): error: use of undeclared identifier 'keyscan_param_t'
+    keyscan_param_t param;
+    ^
+../../../../components/driver/driver_keyscan.c(197): error: use of undeclared identifier 'param'
+    param.row_en = 0xff;
+    ^
+../../../../components/driver/driver_keyscan.c(198): error: use of undeclared identifier 'param'
+    param.col_en = 0xfffff;
+    ^
+../../../../components/driver/driver_keyscan.c(199): error: use of undeclared identifier 'param'
+    param.row_map_sel = 0x0;
+    ^
+../../../../components/driver/driver_keyscan.c(201): error: use of undeclared identifier 'param'
+    keyscan_init(&param);
+                  ^
+1 warning and 9 errors generated.
+compiling driver_keyscan.c...
+../../../../components/driver/driver_wdt.c(16): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(7): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_wdt.c(16): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_wdt.c(16): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_wdt.c(17): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(9): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_wdt.c(17): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(9): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_wdt.c(17): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(11): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+2 warnings and 4 errors generated.
+compiling driver_wdt.c...
+../../../../components/driver/driver_i2s.c(16): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_i2s.c(16): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_i2s.c(16): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_i2s.c(16): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 3 errors generated.
+compiling driver_i2s.c...
+compiling driver_codec.c...
+../../../../components/driver/driver_efuse.c(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_efuse.c(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_efuse.c(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_efuse.c(5): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_efuse.c(7): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_efuse.c(7): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_efuse.c(25): error: incomplete definition of type 'struct efuse_reg_t'
+    efuse_reg->len_reg = 0x2814; 
+    ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(26): error: incomplete definition of type 'struct efuse_reg_t'
+    efuse_reg->d0 = data0;
+    ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(27): error: incomplete definition of type 'struct efuse_reg_t'
+    efuse_reg->d1 = data1;
+    ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(28): error: incomplete definition of type 'struct efuse_reg_t'
+    efuse_reg->d2 = data2;   
+    ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(30): error: incomplete definition of type 'struct efuse_reg_t'
+        efuse_reg->ctrl = 0x05;            
+        ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(31): error: incomplete definition of type 'struct efuse_reg_t'
+        while(((efuse_reg->ctrl)&CO_BIT(2)));            
+                ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(32): error: incomplete definition of type 'struct efuse_reg_t'
+        while(!((efuse_reg->ctrl)&CO_BIT(0)));    
+                 ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(22): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(42): error: incomplete definition of type 'struct efuse_reg_t'
+        efuse_reg->ctrl = 0x03;
+        ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(43): error: incomplete definition of type 'struct efuse_reg_t'
+        while(((efuse_reg->ctrl)&CO_BIT(1)));            
+                ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(44): error: incomplete definition of type 'struct efuse_reg_t'
+        while(!((efuse_reg->ctrl)&CO_BIT(0)));    
+                 ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(45): error: incomplete definition of type 'struct efuse_reg_t'
+        efuse_reg->len_reg = 0x2814; 
+        ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(46): error: incomplete definition of type 'struct efuse_reg_t'
+        *data0 = efuse_reg->d0;    
+                 ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(47): error: incomplete definition of type 'struct efuse_reg_t'
+        *data1 = efuse_reg->d1;    
+                 ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+../../../../components/driver/driver_efuse.c(48): error: incomplete definition of type 'struct efuse_reg_t'
+        *data2 = efuse_reg->d2;
+                 ~~~~~~~~~^
+../../../../components/driver/driver_efuse.c(40): note: forward declaration of 'struct efuse_reg_t'
+    volatile struct efuse_reg_t * const efuse_reg = (volatile struct efuse_reg_t *)(EFUSE_BASE);
+                    ^
+1 warning and 19 errors generated.
+compiling driver_efuse.c...
+../../../../components/driver/driver_rtc.c(14): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_rtc.c(14): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_rtc.c(14): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/driver/driver_rtc.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_rtc.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(30): error: call to undeclared function 'co_printf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        co_printf("0x%02X,",data[i]);
+        ^
+../../../../components/modules/sys/include\sys_utils.h(30): note: did you mean 'co_sprintf'?
+../../../../components/modules/common/include\co_printf.h(5): note: 'co_sprintf' declared here
+int co_sprintf(char *out, const char *format, ...);
+    ^
+../../../../components/driver/driver_rtc.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(32): error: call to undeclared function 'co_printf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    co_printf("\r\n");
+    ^
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_rtc.c(17): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(41): error: call to undeclared function 'co_printf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        co_printf("%02X",data[i]);
+        ^
+../../../../components/modules/sys/include\sys_utils.h(43): error: call to undeclared function 'co_printf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    co_printf("\r\n");
+    ^
+../../../../components/driver/driver_rtc.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_rtc.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_rtc.c(19): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 11 errors generated.
+compiling driver_rtc.c...
+../../../../components/driver/driver_uart.c(13): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_uart.c(13): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_uart.c(13): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_uart.c(13): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_uart.c(20): error: 'user_task.h' file not found
+#include "user_task.h"
+         ^~~~~~~~~~~~~
+1 warning and 4 errors generated.
+compiling driver_uart.c...
+../../../../components/driver/driver_pwm.c(3): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_pwm.c(3): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pwm.c(3): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_pwm.c(3): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 3 errors generated.
+compiling driver_pwm.c...
+../../../../components/driver/driver_exti.c(14): warning: In file included from...
+../../../../components/driver/include\driver_exti.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(11): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/driver/driver_exti.c(14): warning: In file included from...
+../../../../components/driver/include\driver_exti.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_exti.c(14): warning: In file included from...
+../../../../components/driver/include\driver_exti.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/driver/driver_exti.c(14): warning: In file included from...
+../../../../components/driver/include\driver_exti.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 3 errors generated.
+compiling driver_exti.c...
+../../../../components/modules/platform/source/core_cm3_isr.c(5): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(9): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/modules/platform/source/core_cm3_isr.c(5): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(9): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/platform/source/core_cm3_isr.c(5): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(9): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/modules/platform/source/core_cm3_isr.c(5): warning: In file included from...
+../../../../components/driver/include\driver_wdt.h(11): warning: In file included from...
+../../../../components/driver/include/driver_pmu.h(176): warning: declaration of 'enum pmu_gpio_mux_t' will not be visible outside of this function [-Wvisibility]
+void pmu_set_port_mux(enum system_port_t port, enum system_port_bit_t bit, enum pmu_gpio_mux_t func);
+                                                                                ^
+../../../../components/modules/platform/source/core_cm3_isr.c(6): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/platform/source/core_cm3_isr.c(6): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/platform/source/core_cm3_isr.c(6): warning: In file included from...
+../../../../components/driver/include\driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/platform/source/core_cm3_isr.c(7): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(24): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_reg(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/platform/source/core_cm3_isr.c(7): warning: In file included from...
+../../../../components/modules/sys/include\sys_utils.h(35): error: unknown type name '__forceinline'
+__STATIC __INLINE void show_utf8_hex(uint8_t *data,uint32_t len,uint8_t dbg_on)
+         ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+2 warnings and 7 errors generated.
+compiling core_cm3_isr.c...
+assembling app_boot_vectors.s...
+../../../../components/modules/patch/patch.c(3): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(21): warning: In file included from...
+../../../../components/modules/platform/include\compiler.h(29): warning: '__INLINE' macro redefined [-Wmacro-redefined]
+#define __INLINE __forceinline
+        ^
+../../../../components/modules/platform/include\compiler.h(26): note: previous definition is here
+#define __INLINE inline
+        ^
+../../../../components/modules/patch/patch.c(3): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: unknown type name '__forceinline'
+__INLINE uint32_t co_clz(uint32_t val)
+^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/patch/patch.c(3): warning: In file included from...
+../../../../components/modules/platform/include\jump_table.h(6): warning: In file included from...
+../../../../components/modules/common/include\co_math.h(125): error: expected ';' after top level declarator
+__INLINE uint32_t co_clz(uint32_t val)
+                 ^
+                 ;
+../../../../components/modules/patch/patch.c(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1877): error: unknown type name '__forceinline'
+static __INLINE void FPB_Enable(void)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/patch/patch.c(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1882): error: unknown type name '__forceinline'
+static __INLINE void FPB_SetRemap(uint32_t address)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+../../../../components/modules/patch/patch.c(8): warning: In file included from...
+../../../../components/driver/include\driver_uart.h(17): warning: In file included from...
+../../../../components/driver/include/driver_plf.h(79): warning: In file included from...
+../../../../components/modules/platform/include\core_cm3.h(1888): error: unknown type name '__forceinline'
+static __INLINE void FPB_CompUnset(uint8_t index)
+       ^
+../../../../components/modules/platform/include\compiler.h(29): note: expanded from macro '__INLINE'
+#define __INLINE __forceinline
+                 ^
+1 warning and 5 errors generated.
+compiling patch.c...
+".\Objects\ble_5_stack.axf" - 232 Error(s), 59 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_AT_prj
+  C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Target not created.
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: abc ASUS, abc, LIC=03C6R-KTWXU-01GP1-CMIL0-3QT6H-KD08E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+E:\Ê®Öñ\ÖÇÄÜÌøÉþ\FR801xH-SDK-master\mcu_demo\examples\none_evm\ble_drivers_demo\proj\ble_drivers_demo.uvprojx
+Project File Date:  09/20/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'drivers_demo'
+compiling proj_main.c...
+compiling driver_wdt.c...
+compiling demo_peripheral.c...
+..\code\demo_peripheral.c(903): warning:  #223-D: function "ssp_wait_busy_bit" declared implicitly
+            ssp_wait_busy_bit(SSP0_BASE);
+..\code\demo_peripheral.c(919): warning:  #111-D: statement is unreachable
+          co_printf("master_tx:%d\r\n",i);
+..\code\demo_peripheral.c(884): warning:  #177-D: variable "buff"  was declared but never referenced
+      uint8_t buff[64] = {0};
+..\code\demo_peripheral.c: 3 warnings, 0 errors
+compiling driver_codec.c...
+compiling driver_pmu_qdec.c...
+compiling driver_keyscan.c...
+compiling time_rtc.c...
+compiling driver_i2s.c...
+compiling driver_timer.c...
+compiling ota_service.c...
+compiling driver_iic.c...
+compiling driver_pmu_pwm.c...
+compiling driver_flash_ssp.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\components\driver\driver_flash_ssp.c": No such file or directory
+..\..\..\..\components\driver\driver_flash_ssp.c: 0 warnings, 1 error
+compiling ota.c...
+compiling driver_ssp.c...
+compiling driver_efuse.c...
+compiling driver_rtc.c...
+compiling driver_pmu.c...
+compiling driver_uart.c...
+assembling app_boot_vectors.s...
+compiling driver_exti.c...
+compiling driver_pdm.c...
+compiling driver_pwm.c...
+compiling core_cm3_isr.c...
+compiling driver_adc.c...
+compiling patch.c...
+".\Objects\ble_5_stack.axf" - 1 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_drivers_demo
+  C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

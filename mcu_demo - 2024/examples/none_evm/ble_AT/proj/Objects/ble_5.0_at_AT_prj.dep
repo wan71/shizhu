@@ -1,0 +1,523 @@
+Dependencies for Project 'ble_5.0_at', Target 'AT_prj': (DO NOT MODIFY !)
+CompilerVersion: 6190000::V6.19::ARMCLANG
+F (..\code\proj_main.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/proj_main.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (..\code\at_gap_event.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\code\at_recv_cmd.h)(0x65026E56)
+I (..\code\at_profile_spss.h)(0x65026E56)
+I (..\code\at_profile_spsc.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_ota\ota_service.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_dev_info\dev_info_service.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_batt\batt_service.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_hid\hid_service.h)(0x65026E56)
+F (..\code\at_gap_event.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/at_gap_event.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\code\at_profile_spsc.h)(0x65026E56)
+I (..\code\at_profile_spss.h)(0x65026E56)
+I (..\code\at_gap_event.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\code\at_recv_cmd.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_hid\hid_service.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\ble_hl_error.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+F (..\code\at_recv_cmd.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/at_recv_cmd.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_task.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65026E56)
+I (..\code\at_recv_cmd.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\code\at_profile_spss.h)(0x65026E56)
+I (..\code\at_profile_spsc.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+F (..\code\at_profile_spsc.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/at_profile_spsc.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\code\at_gap_event.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\code\at_profile_spss.h)(0x65026E56)
+F (..\code\at_cmd_task.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/at_cmd_task.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\code\at_recv_cmd.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\code\at_profile_spsc.h)(0x65026E56)
+I (..\code\at_profile_spss.h)(0x65026E56)
+I (..\code\at_gap_event.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+F (..\code\at_profile_spss.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/at_profile_spss.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\code\at_cmd_task.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (..\code\at_gap_event.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\code\at_profile_spss.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_hid\hid_service.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/hid_service.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_task.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_hid\hid_service.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_ota\ota.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/ota.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_mem.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_ota\ota.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_ota\ota_service.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_timer.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_batt\batt_service.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/batt_service.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_batt\batt_service.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_dev_info\dev_info_service.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/dev_info_service.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_dev_info\dev_info_service.h)(0x65026E56)
+F (..\..\..\..\components\ble\profiles\ble_ota\ota_service.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/ota_service.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gap\gap_api.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\ble\include\gatt\gatt_api.h)(0x65026E56)
+I (..\..\..\..\components\modules\os\include\os_msg_q.h)(0x65026E56)
+I (..\..\..\..\components\ble\include\gatt\gatt_sig_uuid.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_ota\ota.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\ble\profiles\ble_ota\ota_service.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_iic.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_iic.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iic.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_pmu.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_pmu.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_adc.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_pmu_pwm.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_pmu_pwm.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_pwm.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_pmu_qdec.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_pmu_qdec.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_qdec.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_timer.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_timer.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_timer.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_ssp.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_ssp.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_ssp.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_gpio.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_keyscan.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_keyscan.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_keyscan.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_wdt.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_wdt.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_log.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_i2s.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_i2s.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_i2s.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+F (..\..\..\..\components\driver\driver_codec.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_codec.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_codec.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_efuse.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_efuse.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\string.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_efuse.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+F (..\..\..\..\components\driver\driver_rtc.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_rtc.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+I (..\..\..\..\components\driver\include\driver_rtc.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_uart.c)(0x655488A0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_uart.o -MD)
+F (..\..\..\..\components\driver\driver_pwm.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_pwm.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pwm.h)(0x65026E56)
+F (..\..\..\..\components\driver\driver_exti.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/driver_exti.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_exti.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+F (..\..\..\..\components\modules\platform\source\core_cm3_isr.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/core_cm3_isr.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdio.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\common\include\co_printf.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_wdt.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\modules\sys\include\sys_utils.h)(0x6513E4E8)
+F (..\..\..\..\components\modules\platform\source\app_boot_vectors.s)(0x65026E56)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-mlittle-endian -gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"ARMCM3 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/app_boot_vectors.o)
+F (..\..\..\..\components\modules\patch\patch.c)(0x65026E56)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -mlittle-endian -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../components/ble/include -I ../../../../components/driver/include -I ../../../../components/modules/os/include -I ../../../../components/modules/sys/include -I ../../../../components/modules/platform/include -I ../../../../components/modules/common/include -I ../../../../components/modules/lowpow/include -I ../../../../components/modules/button -I ../../../../components/ble/include/gap -I ../../../../components/ble/include/gatt -I ../../../../components/ble/profiles/ble_ota -I ../code -I ../../../../components/ble/profiles/ble_dev_info -I ../../../../components/ble/profiles/ble_batt -I ../../../../components/ble/profiles/ble_hid-I./RTE/_AT_prj-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/wl123/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCFG_ADV_MEM_ALLOOC_NEW -DCFG_SIMPLE_PRINTF-o ./objects/patch.o -MD)
+I (D:\keil\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\jump_table.h)(0x65026E56)
+I (..\..\..\..\components\modules\common\include\co_math.h)(0x65026E56)
+I (D:\keil\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\keil\ARM\ARMCLANG\include\stdlib.h)(0x63884908)
+I (..\..\..\..\components\modules\platform\include\compiler.h)(0x65026E56)
+I (..\..\..\..\components\modules\lowpow\include\low_power.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_system.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_iomux.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_uart.h)(0x651103BE)
+I (..\..\..\..\components\driver\include\driver_plf.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\core_cm3.h)(0x65026E56)
+I (..\..\..\..\components\modules\platform\include\cmsis_compiler.h)(0x65026E56)
+I (C:\Users\wl123\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F4ADE)
+I (..\..\..\..\components\modules\platform\include\ll.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_pmu_regs.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_frspim.h)(0x65026E56)
+I (..\..\..\..\components\driver\include\driver_flash.h)(0x65026E56)
+I (..\code\flash_usage_config.h)(0x65026E56)
+F (..\..\..\..\components\ble\library\fr8010h_stack.lib)(0x65026E56)()
