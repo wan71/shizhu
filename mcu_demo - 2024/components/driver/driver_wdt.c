@@ -125,6 +125,13 @@ __attribute__((weak)) __attribute__((section("ram_code"))) void wdt_isr_ram(unsi
     while(1);
 }
 
+void wdt_test_init(void) 
+{ 
+    wdt_init(WDT_ACT_RST_CHIP, 4); 
+    wdt_start(); 
+};
+
+
 void wdt_test(void)
 {
     wdt_init(WDT_ACT_CALL_IRQ, 4);

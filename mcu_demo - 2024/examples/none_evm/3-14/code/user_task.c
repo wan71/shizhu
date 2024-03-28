@@ -68,6 +68,7 @@ uint32_t timeble32=0;
 char char_array[20]; 
 float t=0;
 int a;
+extern float last_nb_time;
 int b;
 uint32_t jump_num_verify=1;
 int year, month, day, hour, minute, second;
@@ -93,11 +94,16 @@ __attribute__((weak)) __attribute__((section("ram_code"))) void timer0_isr_ram(v
 		t+=0.1;
 	  a++;
 		b++;
+	
 	if(b==10)
 	{
 		dt++;
 		b=0;
+		wdt_feed();
+		
 	}
+
+
 	
 	 if(a>=5)
 	 {
@@ -109,6 +115,15 @@ __attribute__((weak)) __attribute__((section("ram_code"))) void timer0_isr_ram(v
 	 {
 		
 		 dt=0;
+	 }
+	 if(last_nb_time>0)
+	 {
+	
+		if((dt-last_nb_time)>60)
+		{
+			gpio_set_pin_value(GPIO_PORT_B, GPIO_BIT_7,0);
+			last_nb_time=0;
+		}
 	 }
 }
 
@@ -273,9 +288,9 @@ static int user_task_func(os_event_t *param)
 				gpio_set_pin_value(GPIO_PORT_B, GPIO_BIT_7,1);
 				nb_count=flash_nb_read();
 				
-				const char *Message = "AT+CPSMS=2,,,\"01000011\",\"01000011\"\r\n";
-				AT_send(Message);
-			
+//				const char *Message = "AT+CPSMS=2,,,\"01000011\",\"01000011\"\r\n";
+//				AT_send(Message);
+//			
 				if(jump.count==0)
 				{
 					co_printf("no data \r\n");

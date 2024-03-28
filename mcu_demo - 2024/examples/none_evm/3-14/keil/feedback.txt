@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Thu Mar 14 11:45:13 2024
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Fri Mar 22 17:56:46 2024
 ;VERSION 0.2
 ;FILE adv_check_mode.o
 __asm___16_adv_check_mode_c_9741a236____REV16 <= USED 0
@@ -64,6 +64,9 @@ attm_svc_set_permission <= USED 0
 ;FILE attm_db.o
 attmdb_svc_visibility_set <= USED 0
 ;FILE atts.o
+;FILE batt_service.o
+batt_gatt_notify <= USED 0
+batt_gatt_op_cmp_handler <= USED 0
 ;FILE ble_simple_peripheral.o
 __asm___23_ble_simple_peripheral_c_4fde123a____REV16 <= USED 0
 __asm___23_ble_simple_peripheral_c_4fde123a____REVSH <= USED 0
@@ -165,7 +168,6 @@ __asm___13_driver_uart_c_rev____REVSH <= USED 0
 __asm___13_driver_uart_c_rev____RRX <= USED 0
 uart_init1 <= USED 0
 ;FILE driver_wdt.o
-wdt_start <= USED 0
 wdt_stop <= USED 0
 wdt_test <= USED 0
 ;FILE entry.o
@@ -872,7 +874,7 @@ system_prevent_sleep_clear <= USED 0
 system_prevent_sleep_set <= USED 0
 system_set_rf_power <= USED 0
 system_set_tx_power <= USED 0
-system_sleep_enable <= USED 0
+system_sleep_disable <= USED 0
 val_to_str <= USED 0
 ;FILE user_bond_manage.o
 ble_bond_addr_check_result <= USED 0

@@ -63,6 +63,6 @@ void wdt_start(void);
  * @return  None.
  */
 void wdt_stop(void);
-
+void wdt_test_init(void);
 #endif  // _DRIVER_WDT_H
 

@@ -15,7 +15,7 @@
 #include "jump_table.h"
 
 #include "user_task.h"
-
+#include "driver_wdt.h"
 #include "driver_plf.h"
 #include "driver_system.h"
 #include "driver_i2s.h"
@@ -48,10 +48,11 @@ const struct jump_table_version_t _jump_table_version __attribute__((section("ju
 const struct jump_table_image_t _jump_table_image __attribute__((section("jump_table_1"))) =
 {
     .image_type = IMAGE_TYPE_APP,
-    .image_size = 0x19000,      
+    .image_size = 0x21000,      
 };
 
-
+uint32_t last_nb_time=0;
+extern uint32_t dt;
 __attribute__((section("ram_code"))) void pmu_gpio_isr_ram(void)
 {
 	 //自己加
@@ -61,6 +62,7 @@ __attribute__((section("ram_code"))) void pmu_gpio_isr_ram(void)
     uint32_t gpio_value = ool_read32(PMU_REG_GPIOA_V);
 	// 读取 PMU_REG_GPIOA_V 寄存器的值
     
+	  last_nb_time=dt;
     button_toggle_detected(gpio_value);
 	// 检测按钮状态改变
     ool_write32(PMU_REG_PORTA_LAST, gpio_value);
@@ -205,6 +207,10 @@ void uarst_init(void)
 	
 };
 
+
+
+
+
 void element_init(void)
 {
 	pmu_set_pin_to_PMU(GPIO_PORT_C,(1<< GPIO_BIT_6)|(1<< GPIO_BIT_7));
@@ -314,7 +320,7 @@ void user_entry_after_ble_init(void)
     co_printf("BLE Peripheral\r\n");
 	
 #if 1
-    system_sleep_disable();		//disable sleep 
+    //system_sleep_disable();		//disable sleep 
 #else
     if(__jump_table.system_option & SYSTEM_OPTION_SLEEP_ENABLE)  //if sleep is enalbed, delay 3s for JLINK 
     {
@@ -338,5 +344,7 @@ void user_entry_after_ble_init(void)
     simple_peripheral_init();//蓝牙函数
 	
 		oled_init();
-		
+		wdt_test_init();
+		batt_gatt_add_service();
+		system_sleep_enable();
 }

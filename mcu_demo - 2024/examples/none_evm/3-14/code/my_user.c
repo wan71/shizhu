@@ -60,7 +60,7 @@ void flash_change_nb(int num)
 	  int m;
 	  int n=0;
 	  
-		int packageindex,package;
+		//int packageindex,package;
 		flash_read(num,15,(uint8_t *)data_head);
 		at_count=data_head[0] << 8 | data_head[1];
 		if(at_count>LANYA_FLASH)
@@ -120,9 +120,10 @@ void flash_change_nb(int num)
 				strcat(formattedString,"}\"}\"\r\n");
 				uart_write(UART0,(uint8_t *)formattedString, strlen((char*)formattedString));	
 			  printf("%s\n", formattedString);
-				//co_delay_100us(1000);
+				co_delay_100us(100);
 				n++;
 				jump_2.packageindex++;
+				
 			}
 			
 //				for(n=0;n < jump_2.package;n++)

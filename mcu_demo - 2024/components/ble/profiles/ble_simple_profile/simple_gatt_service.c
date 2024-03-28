@@ -659,6 +659,7 @@ static uint16_t sp_gatt_msg_handler(gatt_msg_t *p_msg)
 							
 							case CHECK:  //电量获取--0XA4
 							{
+								co_printf("%s\r\n",TX_check);
 								ntf_data(p_msg->conn_idx,SP_IDX_CHAR1_VALUE,(uint8_t *)TX_check,strlen(TX_check));
 //						     memcpy(p_msg->param.msg.p_msg_data, TX_check, strlen(TX_check));
 //						     return strlen(TX_check);										

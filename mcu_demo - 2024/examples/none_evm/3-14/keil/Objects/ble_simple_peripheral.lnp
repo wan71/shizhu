@@ -10,6 +10,7 @@
 ".\objects\lcd.o"
 ".\objects\lcd_init.o"
 ".\objects\led.o"
+".\objects\batt_service.o"
 ".\objects\driver_iic.o"
 ".\objects\driver_pmu.o"
 ".\objects\driver_keyscan.o"

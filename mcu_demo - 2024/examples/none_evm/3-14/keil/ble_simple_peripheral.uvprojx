@@ -313,7 +313,7 @@
             <interw>1</interw>
             <Optim>4</Optim>
             <oTime>0</oTime>
-            <SplitLS>0</SplitLS>
+            <SplitLS>1</SplitLS>
             <OneElfS>1</OneElfS>
             <Strict>0</Strict>
             <EnumInt>0</EnumInt>
@@ -455,6 +455,16 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\code\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>batt_service.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\components\ble\profiles\ble_batt\batt_service.c</FilePath>
+            </File>
+            <File>
+              <FileName>batt_service.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\..\components\ble\profiles\ble_batt\batt_service.h</FilePath>
             </File>
           </Files>
         </Group>
